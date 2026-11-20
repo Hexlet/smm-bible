@@ -1,0 +1,35 @@
+amends "package://github.com/jdx/hk/releases/download/v2.12.0/hk@2.12.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v2.12.0/hk@2.12.0#/Builtins.pkl"
+
+// Быстрые проверки на коммит.
+local fast = new Mapping<String, Step> {
+    ["rumdl"] = Builtins.rumdl
+    ["typos"] = Builtins.typos
+    ["jactionlint"] = Builtins.jactionlint
+}
+
+// Сборка сайта: VitePress падает на битых внутренних ссылках.
+local all = (fast) {
+    ["build"] {
+        glob = List("docs/**", "package.json", "package-lock.json")
+        check = "npm run --silent build"
+    }
+}
+
+hooks {
+    ["pre-commit"] {
+        fix = true
+        stash = "git"
+        steps = fast
+    }
+    ["pre-push"] {
+        steps = all
+    }
+    ["check"] {
+        steps = all
+    }
+    ["fix"] {
+        fix = true
+        steps = all
+    }
+}

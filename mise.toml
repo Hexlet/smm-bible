@@ -1,0 +1,28 @@
+# Один набор инструментов для разработчиков, git-хуков и CI: `mise run setup`, затем `mise run check`.
+# Версии выдержаны не менее 7 дней после релиза, как и cooldown в dependabot.yml.
+min_version = "2026.11.3"
+
+[tools]
+node = "26"
+hk = "2.12.0"
+pkl = "0.33.0"
+rumdl = "0.3.4"
+typos = "1.52.2"
+lychee = "0.24.2"
+jactionlint = "2.6.0"
+
+[tasks.setup]
+description = "Установить зависимости и git-хуки"
+run = ["npm ci", "hk install"]
+
+[tasks.check]
+description = "Все обязательные проверки, тот же набор, что в CI"
+run = "hk check --all"
+
+[tasks.fix]
+description = "Применить безопасные автоисправления"
+run = "hk fix --all"
+
+[tasks.links]
+description = "Проверить внешние ссылки (нужна сеть)"
+run = "lychee --config lychee.toml --no-progress '**/*.md'"
