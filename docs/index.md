@@ -3,32 +3,27 @@ layout: home
 
 hero:
   name: SMM Bible
-  tagline: Практическое руководство по SMM
+  text: Практическое руководство по SMM
+  tagline: Для русскоязычных маркетологов. Материалы в работе.
   actions:
     - theme: brand
-      text: Начать
-      link: /strategy/
+      text: Оглавление
+      link: /guide/
     - theme: alt
-      text: Шаблоны
-      link: /templates/
+      text: Площадки
+      link: /platforms/
+    - theme: alt
+      text: Механики
+      link: /mechanics/
 
 features:
-  - title: Стратегия
-    details: Цели, аудитория, позиционирование
-    link: /strategy/
-  - title: Контент
-    details: Форматы, рубрикатор, tone of voice
-    link: /content/
-  - title: Площадки
-    details: Особенности каждой соцсети
+  - title: Руководство
+    details: Аудитория, стратегия, контент, подкасты, продвижение, воронки, аналитика и организация работы.
+    link: /guide/
+  - title: Справочник площадок
+    details: Соцсети, мессенджеры, контентные платформы и отраслевые медиа.
     link: /platforms/
-  - title: Реклама и посевы
-    details: Платное продвижение
-    link: /ads/
-  - title: Аналитика
-    details: Метрики и отчётность
-    link: /analytics/
-  - title: Шаблоны
-    details: Контент-план, бриф, отчёт
-    link: /templates/
+  - title: Каталог механик
+    details: Закрепы, сторис, треды, ссылки в комментариях, обмен постами, выступления и другие приёмы.
+    link: /mechanics/
 ---
