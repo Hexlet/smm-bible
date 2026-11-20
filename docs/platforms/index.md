@@ -4,11 +4,11 @@
 
 ## Соцсети и мессенджеры
 
-- [Telegram](/platforms/telegram) — в работе.
-- [VK](/platforms/vk) — в работе.
-- [VK Видео](/platforms/vk-video) — в работе.
-- [VK Клипы](/platforms/vk-clips) — в работе.
-- [YouTube](/platforms/youtube) — в работе.
+- [Telegram](/platforms/telegram).
+- [VK](/platforms/vk).
+- [VK Видео](/platforms/vk-video).
+- [VK Клипы](/platforms/vk-clips).
+- [YouTube](/platforms/youtube).
 - [Instagram](/platforms/instagram) — в работе.
 - [TikTok](/platforms/tiktok) — в работе.
 - [Threads](/platforms/threads) — в работе.

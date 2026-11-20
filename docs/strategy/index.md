@@ -5,8 +5,8 @@
 ## Материалы
 
 - [Роль SMM и задачи бизнеса](/strategy/role).
-- [Исследование аудитории](/strategy/audience) — в работе.
-- [Рынок и конкуренты](/strategy/competitors) — в работе.
-- [Позиционирование и ценность подписки](/strategy/positioning) — в работе.
-- [Выбор площадок и стратегия](/strategy/channels) — в работе.
-- [Бюджет и экономика SMM](/strategy/economics) — в работе.
+- [Исследование аудитории](/strategy/audience).
+- [Рынок и конкуренты](/strategy/competitors).
+- [Позиционирование и ценность подписки](/strategy/positioning).
+- [Выбор площадок и стратегия](/strategy/channels).
+- [Бюджет и экономика SMM](/strategy/economics).

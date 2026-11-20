@@ -7,19 +7,19 @@
 ## [Основы и стратегия](/strategy/)
 
 - [Роль SMM и задачи бизнеса](/strategy/role).
-- [Исследование аудитории](/strategy/audience) — в работе.
-- [Рынок и конкуренты](/strategy/competitors) — в работе.
-- [Позиционирование и ценность подписки](/strategy/positioning) — в работе.
-- [Выбор площадок и стратегия](/strategy/channels) — в работе.
-- [Бюджет и экономика SMM](/strategy/economics) — в работе.
+- [Исследование аудитории](/strategy/audience).
+- [Рынок и конкуренты](/strategy/competitors).
+- [Позиционирование и ценность подписки](/strategy/positioning).
+- [Выбор площадок и стратегия](/strategy/channels).
+- [Бюджет и экономика SMM](/strategy/economics).
 
 ## [Соцсети и мессенджеры](/platforms/)
 
-- [Telegram](/platforms/telegram) — в работе.
-- [VK](/platforms/vk) — в работе.
-- [VK Видео](/platforms/vk-video) — в работе.
-- [VK Клипы](/platforms/vk-clips) — в работе.
-- [YouTube](/platforms/youtube) — в работе.
+- [Telegram](/platforms/telegram).
+- [VK](/platforms/vk).
+- [VK Видео](/platforms/vk-video).
+- [VK Клипы](/platforms/vk-clips).
+- [YouTube](/platforms/youtube).
 - [Instagram](/platforms/instagram) — в работе.
 - [TikTok](/platforms/tiktok) — в работе.
 - [Threads](/platforms/threads) — в работе.
