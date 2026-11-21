@@ -10,7 +10,7 @@
 
 ## Выберите отправку и проверьте очередь
 
-MAX описывает [отложенную публикацию канала](https://help.max.ru/help/channels/nastroiki_kanala/kak_otlozhit_publikaciyu_v_kanale?from=navigation): задайте дату и время, затем откройте очередь через кнопку часов. В справке указан предел 100 запланированных постов. До наступления времени можно [изменить текст и дату](https://help.max.ru/help/channels/nastroiki_kanala/kak_izmenit_zaplanirovannuyu_publikaciyu_v_kanale?from=navigation).
+MAX описывает [отложенную публикацию канала](https://help.max.ru/help/channels/nastroiki_kanala/kak_nastroit_zaplanirovannuyu_publikaciyu_v_kanale?from=navigation): задайте дату и время, затем откройте очередь через кнопку часов. В справке указан предел 100 запланированных постов. До наступления времени можно [изменить текст и дату](https://help.max.ru/help/channels/nastroiki_kanala/kak_izmenit_zaplanirovannuyu_publikaciyu_v_kanale?from=navigation).
 
 Проверьте настройку [«Подтверждать отправку»](https://help.max.ru/help/channels/nastroiki_kanala/kak_vklyuchit_ili_otklyuchit_podtverzhdenie_otpravki_publikacii_v_kanale?from=navigation). Она добавляет подтверждение действия самого отправителя; согласование материала сотрудниками организуйте до этого шага.
 

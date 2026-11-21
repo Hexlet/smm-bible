@@ -12,6 +12,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Исследование аудитории', link: '/strategy/audience' },
       { text: 'Рынок и конкуренты', link: '/strategy/competitors' },
       { text: 'Позиционирование и ценность подписки', link: '/strategy/positioning' },
+      { text: 'Бренд и коммуникационная стратегия', link: '/strategy/communications' },
       { text: 'Выбор площадок и стратегия', link: '/strategy/channels' },
       { text: 'Бюджет и экономика SMM', link: '/strategy/economics' },
     ],

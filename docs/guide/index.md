@@ -10,6 +10,7 @@
 - [Исследование аудитории](/strategy/audience).
 - [Рынок и конкуренты](/strategy/competitors).
 - [Позиционирование и ценность подписки](/strategy/positioning).
+- [Бренд и коммуникационная стратегия](/strategy/communications).
 - [Выбор площадок и стратегия](/strategy/channels).
 - [Бюджет и экономика SMM](/strategy/economics).
 
