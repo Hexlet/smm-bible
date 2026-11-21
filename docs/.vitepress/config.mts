@@ -142,10 +142,38 @@ const platformsSidebar: DefaultTheme.SidebarItem[] = [
           { text: 'Публикация и сопровождение', link: '/platforms/telegram/publishing' },
         ],
       },
-      { text: 'VK', link: '/platforms/vk' },
-      { text: 'VK Видео', link: '/platforms/vk-video' },
-      { text: 'VK Клипы', link: '/platforms/vk-clips' },
-      { text: 'YouTube', link: '/platforms/youtube' },
+      {
+        text: 'VK',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/vk' },
+          { text: 'Публикация и сопровождение', link: '/platforms/vk/publishing' },
+        ],
+      },
+      {
+        text: 'VK Видео',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/vk-video' },
+          { text: 'Публикация и сопровождение', link: '/platforms/vk-video/publishing' },
+        ],
+      },
+      {
+        text: 'VK Клипы',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/vk-clips' },
+          { text: 'Публикация и сопровождение', link: '/platforms/vk-clips/publishing' },
+        ],
+      },
+      {
+        text: 'YouTube',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/youtube' },
+          { text: 'Публикация и сопровождение', link: '/platforms/youtube/publishing' },
+        ],
+      },
       {
         text: 'Instagram',
         collapsed: true,
@@ -178,10 +206,38 @@ const platformsSidebar: DefaultTheme.SidebarItem[] = [
           { text: 'Публикация и сопровождение', link: '/platforms/twitter/publishing' },
         ],
       },
-      { text: 'MAX', link: '/platforms/max' },
-      { text: 'Одноклассники', link: '/platforms/ok' },
-      { text: 'Дзен', link: '/platforms/dzen' },
-      { text: 'Rutube', link: '/platforms/rutube' },
+      {
+        text: 'MAX',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/max' },
+          { text: 'Публикация и сопровождение', link: '/platforms/max/publishing' },
+        ],
+      },
+      {
+        text: 'Одноклассники',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/ok' },
+          { text: 'Публикация и сопровождение', link: '/platforms/ok/publishing' },
+        ],
+      },
+      {
+        text: 'Дзен',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/dzen' },
+          { text: 'Публикация и сопровождение', link: '/platforms/dzen/publishing' },
+        ],
+      },
+      {
+        text: 'Rutube',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/rutube' },
+          { text: 'Публикация и сопровождение', link: '/platforms/rutube/publishing' },
+        ],
+      },
       {
         text: 'Pinterest',
         collapsed: true,
@@ -190,8 +246,22 @@ const platformsSidebar: DefaultTheme.SidebarItem[] = [
           { text: 'Публикация и сопровождение', link: '/platforms/pinterest/publishing' },
         ],
       },
-      { text: 'TenChat', link: '/platforms/tenchat' },
-      { text: 'Сетка', link: '/platforms/setka' },
+      {
+        text: 'TenChat',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/tenchat' },
+          { text: 'Публикация и сопровождение', link: '/platforms/tenchat/publishing' },
+        ],
+      },
+      {
+        text: 'Сетка',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/setka' },
+          { text: 'Публикация и сопровождение', link: '/platforms/setka/publishing' },
+        ],
+      },
       {
         text: 'Facebook',
         collapsed: true,
