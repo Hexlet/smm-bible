@@ -9,7 +9,13 @@ max_cache_age = "1d"
 accept = ["200..=204", "429"]
 exclude_path = ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
 # Ссылки на сам репозиторий отвечают 404, пока коммит не запушен.
-exclude = ["^https://github.com/mokevnin/smm-bible/"]
+# help.x.com и sagepub.com стоят за защитой от ботов и отвечают 403 любому автоматическому клиенту,
+# хотя страницы открываются в браузере. Проверять их вручную.
+exclude = [
+  "^https://github.com/mokevnin/smm-bible/",
+  "^https://help\\.x\\.com/",
+  "^https://www\\.sagepub\\.com/",
+]
 # Только внешние ссылки: локальные пути вида /strategy/ — это маршруты VitePress, а не файлы.
 root_dir = "docs"
 scheme = ["http", "https"]
