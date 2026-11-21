@@ -13,6 +13,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Рынок и конкуренты', link: '/strategy/competitors' },
       { text: 'Позиционирование и ценность подписки', link: '/strategy/positioning' },
       { text: 'Бренд и коммуникационная стратегия', link: '/strategy/communications' },
+      { text: 'Как люди находят и потребляют контент', link: '/strategy/content-consumption' },
       { text: 'Выбор площадок и стратегия', link: '/strategy/channels' },
       { text: 'Бюджет и экономика SMM', link: '/strategy/economics' },
     ],
@@ -28,6 +29,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
         items: [
           { text: 'Темы, рубрики и редакционная политика', link: '/content/editorial-policy' },
           { text: 'Тексты, визуал и видео', link: '/content/formats' },
+          { text: 'AI-контент и его восприятие', link: '/content/ai-content' },
           { text: 'Креативные концепции и кампании', link: '/content/creative' },
           { text: 'Частота и ритм публикаций', link: '/content/frequency' },
         ],
@@ -117,6 +119,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Определения и формулы показателей', link: '/analytics/metrics' },
       { text: 'Выбор показателей под задачу', link: '/analytics/goals' },
       { text: 'Сбор данных и разметка ссылок', link: '/analytics/tracking' },
+      { text: 'AI для аналитики и исследований', link: '/analytics/ai-research' },
       { text: 'Сквозная аналитика и место SMM', link: '/analytics/end-to-end' },
       { text: 'Отчёты и сравнение площадок', link: '/analytics/reports' },
       { text: 'Атрибуция и ограничения выводов', link: '/analytics/attribution' },

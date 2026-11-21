@@ -18,6 +18,7 @@
 - [Рынок и конкуренты](/strategy/competitors).
 - [Позиционирование и ценность подписки](/strategy/positioning).
 - [Бренд и коммуникационная стратегия](/strategy/communications).
+- [Как люди находят и потребляют контент](/strategy/content-consumption).
 - [Выбор площадок и стратегия](/strategy/channels).
 - [Бюджет и экономика SMM](/strategy/economics).
 
@@ -27,6 +28,7 @@
 
 - [Темы, рубрики и редакционная политика](/content/editorial-policy).
 - [Тексты, визуал и видео](/content/formats).
+- [AI-контент и его восприятие](/content/ai-content).
 - [Креативные концепции и кампании](/content/creative).
 - [Частота и ритм публикаций](/content/frequency).
 
@@ -88,6 +90,7 @@
 - [Определения и формулы показателей](/analytics/metrics).
 - [Выбор показателей под задачу](/analytics/goals).
 - [Сбор данных и разметка ссылок](/analytics/tracking).
+- [AI для аналитики и исследований](/analytics/ai-research).
 - [Сквозная аналитика и место SMM](/analytics/end-to-end).
 - [Отчёты и сравнение площадок](/analytics/reports).
 - [Атрибуция и ограничения выводов](/analytics/attribution).

@@ -6,6 +6,7 @@
 
 - [Темы, рубрики и редакционная политика](/content/editorial-policy).
 - [Тексты, визуал и видео](/content/formats).
+- [AI-контент и его восприятие](/content/ai-content).
 - [Креативные концепции и кампании](/content/creative).
 - [Частота и ритм публикаций](/content/frequency).
 
