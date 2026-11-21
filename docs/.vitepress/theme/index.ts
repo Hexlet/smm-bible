@@ -1,11 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
-import { Mermaid } from './mermaid.js'
+import { enhanceAppWithMermaid } from '@mokevnin/vitepress-mermaid/client'
+import '@mokevnin/vitepress-mermaid/style.css'
 import './style.css'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    app.component('Mermaid', Mermaid)
+    enhanceAppWithMermaid(app)
   },
 } satisfies Theme

@@ -9,6 +9,7 @@
     "typecheck": "tsc -p ."
   },
   "devDependencies": {
+    "@mokevnin/vitepress-mermaid": "github:mokevnin/vitepress-mermaid#v0.1.0",
     "mermaid": "^12.3.0",
     "typescript": "^7.0.2",
     "vitepress": "^1.6.4"
