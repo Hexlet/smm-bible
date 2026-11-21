@@ -8,4 +8,4 @@
 - [Комментарии, сообщения и модерация](/community/moderation).
 - [Пользовательский контент, отзывы и рекомендации](/community/user-content).
 - [Клиентский сервис](/community/customer-service).
-- [Негатив, репутация и кризисы](/community/reputation) — в работе.
+- [Негатив, репутация и кризисы](/community/reputation).

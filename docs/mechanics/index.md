@@ -29,10 +29,10 @@
 
 ## [Участие аудитории](/mechanics/participation/)
 
-- [Опросы, вопросы и обсуждения](/mechanics/participation/polls) — в работе.
-- [Разборы работ подписчиков](/mechanics/participation/reviews) — в работе.
-- [Челленджи и конкурсы](/mechanics/participation/challenges) — в работе.
-- [Совместное создание контента](/mechanics/participation/co-creation) — в работе.
+- [Опросы, вопросы и обсуждения](/mechanics/participation/polls).
+- [Разборы работ подписчиков](/mechanics/participation/reviews).
+- [Челленджи и конкурсы](/mechanics/participation/challenges).
+- [Совместное создание контента](/mechanics/participation/co-creation).
 
 ## [Внешние точки входа и целевые действия](/mechanics/external/)
 
