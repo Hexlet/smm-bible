@@ -4,8 +4,8 @@
 
 ## Материалы
 
-- [Развитие сообщества](/community/development) — в работе.
-- [Комментарии, сообщения и модерация](/community/moderation) — в работе.
-- [Пользовательский контент, отзывы и рекомендации](/community/user-content) — в работе.
-- [Клиентский сервис](/community/customer-service) — в работе.
+- [Развитие сообщества](/community/development).
+- [Комментарии, сообщения и модерация](/community/moderation).
+- [Пользовательский контент, отзывы и рекомендации](/community/user-content).
+- [Клиентский сервис](/community/customer-service).
 - [Негатив, репутация и кризисы](/community/reputation) — в работе.
