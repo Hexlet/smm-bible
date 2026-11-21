@@ -21,9 +21,9 @@
 ## [Обмен аудиториями и сотрудничество](/mechanics/partnerships/)
 
 - [Обмен постами и взаимопиар](/mechanics/partnerships/post-exchange).
-- [Рекомендации и подборки каналов](/mechanics/partnerships/recommendations) — в работе.
-- [Гостевые посты и совместные серии](/mechanics/partnerships/guest-posts) — в работе.
-- [Совместные эфиры и разборы](/mechanics/partnerships/live-events) — в работе.
+- [Рекомендации и подборки каналов](/mechanics/partnerships/recommendations).
+- [Гостевые посты и совместные серии](/mechanics/partnerships/guest-posts).
+- [Совместные эфиры и разборы](/mechanics/partnerships/live-events).
 - [Распространение через тематические чаты](/mechanics/partnerships/chats) — в работе.
 - [Реферальные механики](/mechanics/partnerships/referrals) — в работе.
 
