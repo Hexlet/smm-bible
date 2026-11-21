@@ -5,6 +5,7 @@
 ## Материалы
 
 - [Путь от первого контакта до рекомендации](/funnels/customer-journey).
+- [SMM в запусках и кампаниях](/funnels/launches).
 - [Перелив аудитории между площадками](/funnels/audience-transfer).
 - [Знакомство с новым подписчиком](/funnels/onboarding).
 - [Запуск новой площадки и перенос аудитории](/funnels/migration).

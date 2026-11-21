@@ -81,6 +81,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     collapsed: true,
     items: [
       { text: 'Путь от первого контакта до рекомендации', link: '/funnels/customer-journey' },
+      { text: 'SMM в запусках и кампаниях', link: '/funnels/launches' },
       { text: 'Перелив аудитории между площадками', link: '/funnels/audience-transfer' },
       { text: 'Знакомство с новым подписчиком', link: '/funnels/onboarding' },
       { text: 'Запуск новой площадки и перенос аудитории', link: '/funnels/migration' },
@@ -96,6 +97,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Определения и формулы показателей', link: '/analytics/metrics' },
       { text: 'Выбор показателей под задачу', link: '/analytics/goals' },
       { text: 'Сбор данных и разметка ссылок', link: '/analytics/tracking' },
+      { text: 'Сквозная аналитика и место SMM', link: '/analytics/end-to-end' },
       { text: 'Отчёты и сравнение площадок', link: '/analytics/reports' },
       { text: 'Атрибуция и ограничения выводов', link: '/analytics/attribution' },
       { text: 'Эксперименты и проверка гипотез', link: '/analytics/experiments' },

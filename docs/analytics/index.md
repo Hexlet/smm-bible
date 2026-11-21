@@ -7,6 +7,7 @@
 - [Определения и формулы показателей](/analytics/metrics).
 - [Выбор показателей под задачу](/analytics/goals).
 - [Сбор данных и разметка ссылок](/analytics/tracking).
+- [Сквозная аналитика и место SMM](/analytics/end-to-end).
 - [Отчёты и сравнение площадок](/analytics/reports).
 - [Атрибуция и ограничения выводов](/analytics/attribution).
 - [Эксперименты и проверка гипотез](/analytics/experiments).
