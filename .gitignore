@@ -3,3 +3,6 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 .DS_Store
 .lycheecache
+# Скилы агента ставит `mise run skills` из skills-lock.json.
+.agents/
+.claude/skills/

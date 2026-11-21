@@ -10,10 +10,18 @@ rumdl = "0.3.4"
 typos = "1.52.2"
 lychee = "0.24.2"
 jactionlint = "2.6.0"
+"npm:skills" = "1.8.1"
 
 [tasks.setup]
-description = "Установить зависимости и git-хуки"
-run = ["npm ci", "hk install"]
+description = "Установить зависимости, git-хуки и скилы агента"
+run = ["npm ci", "hk install", { task = "skills" }]
+
+# Скилы Claude Code из skills-lock.json. Файлы генерируются, в git лежит только lock.
+# Добавить скил: skills add <owner/repo> -s <имя> -a claude-code -y, затем закоммитить lock.
+[tasks.skills]
+description = "Поставить скилы агента из skills-lock.json"
+env = { DISABLE_TELEMETRY = "1" }
+run = "skills experimental_install -a claude-code"
 
 [tasks.check]
 description = "Все обязательные проверки, тот же набор, что в CI"
