@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "VITE_EXTRA_EXTENSIONS=xlsx vitepress dev docs",
+    "build": "VITE_EXTRA_EXTENSIONS=xlsx vitepress build docs",
     "preview": "vitepress preview docs",
     "typecheck": "tsc -p ."
   },
