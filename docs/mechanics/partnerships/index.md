@@ -8,5 +8,5 @@
 - [Рекомендации и подборки каналов](/mechanics/partnerships/recommendations).
 - [Гостевые посты и совместные серии](/mechanics/partnerships/guest-posts).
 - [Совместные эфиры и разборы](/mechanics/partnerships/live-events).
-- [Распространение через тематические чаты](/mechanics/partnerships/chats) — в работе.
-- [Реферальные механики](/mechanics/partnerships/referrals) — в работе.
+- [Распространение через тематические чаты](/mechanics/partnerships/chats).
+- [Реферальные механики](/mechanics/partnerships/referrals).

@@ -74,7 +74,7 @@
 
 - [Ссылки и навигация](/mechanics/links/).
 - [Публикации и регулярные касания](/mechanics/publications/).
-- [Обмен аудиториями и сотрудничество](/mechanics/partnerships/) — в работе.
+- [Обмен аудиториями и сотрудничество](/mechanics/partnerships/).
 - [Участие аудитории](/mechanics/participation/) — в работе.
 - [Внешние точки входа и целевые действия](/mechanics/external/) — в работе.
 
@@ -123,8 +123,8 @@
 - [Подрядчики и взаимодействие с отделами](/organization/contractors).
 - [Производство, согласования и контроль качества](/organization/workflow).
 - [Календарь, ресурсы и бюджет](/organization/resources).
-- [Инструменты, автоматизация и ИИ](/organization/tools) — в работе.
-- [Отчётность и передача дел](/organization/reporting-and-handover) — в работе.
+- [Инструменты, автоматизация и ИИ](/organization/tools).
+- [Отчётность и передача дел](/organization/reporting-and-handover).
 
 ## [Правовые вопросы и безопасность](/safety/)
 
@@ -135,5 +135,5 @@
 
 ## Справочные материалы
 
-- [Шаблоны](/templates/) — в работе.
+- [Шаблоны](/templates/).
 - [Глоссарий](/glossary) — в работе.

@@ -4,6 +4,6 @@
 
 ## Материалы
 
-- [Контент-план](/templates/content-plan) — в работе.
-- [Бриф для автора или подрядчика](/templates/brief) — в работе.
-- [Отчёт по SMM](/templates/report) — в работе.
+- [Контент-план](/templates/content-plan).
+- [Бриф для автора или подрядчика](/templates/brief).
+- [Отчёт по SMM](/templates/report).

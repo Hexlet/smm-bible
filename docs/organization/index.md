@@ -8,5 +8,5 @@
 - [Подрядчики и взаимодействие с отделами](/organization/contractors).
 - [Производство, согласования и контроль качества](/organization/workflow).
 - [Календарь, ресурсы и бюджет](/organization/resources).
-- [Инструменты, автоматизация и ИИ](/organization/tools) — в работе.
-- [Отчётность и передача дел](/organization/reporting-and-handover) — в работе.
+- [Инструменты, автоматизация и ИИ](/organization/tools).
+- [Отчётность и передача дел](/organization/reporting-and-handover).

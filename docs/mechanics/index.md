@@ -24,8 +24,8 @@
 - [Рекомендации и подборки каналов](/mechanics/partnerships/recommendations).
 - [Гостевые посты и совместные серии](/mechanics/partnerships/guest-posts).
 - [Совместные эфиры и разборы](/mechanics/partnerships/live-events).
-- [Распространение через тематические чаты](/mechanics/partnerships/chats) — в работе.
-- [Реферальные механики](/mechanics/partnerships/referrals) — в работе.
+- [Распространение через тематические чаты](/mechanics/partnerships/chats).
+- [Реферальные механики](/mechanics/partnerships/referrals).
 
 ## [Участие аудитории](/mechanics/participation/)
 
@@ -36,8 +36,8 @@
 
 ## [Внешние точки входа и целевые действия](/mechanics/external/)
 
-- [Выступления на конференциях](/mechanics/external/conferences) — в работе.
-- [Вебинары, гостевые эфиры и интервью](/mechanics/external/webinars) — в работе.
-- [QR-коды и ссылки в сопроводительных материалах](/mechanics/external/qr-and-signatures) — в работе.
+- [Выступления на конференциях](/mechanics/external/conferences).
+- [Вебинары, гостевые эфиры и интервью](/mechanics/external/webinars).
+- [QR-коды и ссылки в сопроводительных материалах](/mechanics/external/qr-and-signatures).
 - [Полезные материалы за подписку или контакт](/mechanics/external/lead-magnets) — в работе.
 - [Регистрация, обращение, заявка и покупка](/mechanics/external/conversion) — в работе.
