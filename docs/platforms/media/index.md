@@ -8,10 +8,10 @@
 - [vc.ru](/platforms/media/vc).
 - [Пикабу](/platforms/media/pikabu).
 - [DTF](/platforms/media/dtf).
-- [Spark](/platforms/media/spark) — в работе.
+- [Spark](/platforms/media/spark).
 - [Cossa](/platforms/media/cossa).
-- [Sostav](/platforms/media/sostav) — в работе.
-- [Executive.ru](/platforms/media/executive) — в работе.
-- [Клерк](/platforms/media/klerk) — в работе.
-- [RB.RU](/platforms/media/rb) — в работе.
-- [Поиск отраслевых площадок](/platforms/media/industry) — в работе.
+- [Sostav](/platforms/media/sostav).
+- [Executive.ru](/platforms/media/executive).
+- [Клерк](/platforms/media/klerk).
+- [RB.RU](/platforms/media/rb).
+- [Поиск отраслевых площадок](/platforms/media/industry).

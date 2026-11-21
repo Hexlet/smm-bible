@@ -40,13 +40,13 @@
 - [vc.ru](/platforms/media/vc).
 - [Пикабу](/platforms/media/pikabu).
 - [DTF](/platforms/media/dtf).
-- [Spark](/platforms/media/spark) — в работе.
+- [Spark](/platforms/media/spark).
 - [Cossa](/platforms/media/cossa).
-- [Sostav](/platforms/media/sostav) — в работе.
-- [Executive.ru](/platforms/media/executive) — в работе.
-- [Клерк](/platforms/media/klerk) — в работе.
-- [RB.RU](/platforms/media/rb) — в работе.
-- [Поиск отраслевых площадок](/platforms/media/industry) — в работе.
+- [Sostav](/platforms/media/sostav).
+- [Executive.ru](/platforms/media/executive).
+- [Клерк](/platforms/media/klerk).
+- [RB.RU](/platforms/media/rb).
+- [Поиск отраслевых площадок](/platforms/media/industry).
 
 ## [Контент и работа с авторами](/content/)
 
@@ -128,10 +128,10 @@
 
 ## [Правовые вопросы и безопасность](/safety/)
 
-- [Права на контент и договорённости с авторами](/safety/content-rights) — в работе.
-- [Требования к рекламным размещениям](/safety/advertising) — в работе.
-- [Персональные данные и контакты аудитории](/safety/personal-data) — в работе.
-- [Доступы, защита и восстановление аккаунтов](/safety/accounts) — в работе.
+- [Права на контент и договорённости с авторами](/safety/content-rights).
+- [Требования к рекламным размещениям](/safety/advertising).
+- [Персональные данные и контакты аудитории](/safety/personal-data).
+- [Доступы, защита и восстановление аккаунтов](/safety/accounts).
 
 ## Справочные материалы
 
