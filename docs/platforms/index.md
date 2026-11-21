@@ -9,17 +9,17 @@
 - [VK Видео](/platforms/vk-video).
 - [VK Клипы](/platforms/vk-clips).
 - [YouTube](/platforms/youtube).
-- [Instagram](/platforms/instagram) — в работе.
-- [TikTok](/platforms/tiktok) — в работе.
-- [Threads](/platforms/threads) — в работе.
-- [X / Twitter](/platforms/twitter) — в работе.
-- [MAX](/platforms/max) — в работе.
-- [Одноклассники](/platforms/ok) — в работе.
+- [Instagram](/platforms/instagram).
+- [TikTok](/platforms/tiktok).
+- [Threads](/platforms/threads).
+- [X / Twitter](/platforms/twitter).
+- [MAX](/platforms/max).
+- [Одноклассники](/platforms/ok).
 - [Дзен](/platforms/dzen) — в работе.
-- [Rutube](/platforms/rutube) — в работе.
-- [Pinterest](/platforms/pinterest) — в работе.
-- [TenChat](/platforms/tenchat) — в работе.
-- [Сетка](/platforms/setka) — в работе.
+- [Rutube](/platforms/rutube).
+- [Pinterest](/platforms/pinterest).
+- [TenChat](/platforms/tenchat).
+- [Сетка](/platforms/setka).
 - [Facebook](/platforms/facebook) — в работе.
 - [LinkedIn](/platforms/linkedin) — в работе.
 
