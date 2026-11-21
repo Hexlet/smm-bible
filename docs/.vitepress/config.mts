@@ -383,15 +383,49 @@ const resourcesSidebar: DefaultTheme.SidebarItem[] = [
   { text: 'Глоссарий', link: '/glossary' },
 ]
 
+const base = '/smm-bible/'
+// Полный адрес сайта: из него собираются sitemap, canonical и ссылки для превью в соцсетях.
+const siteUrl = `https://mokevnin.github.io${base}`
+const siteTitle = 'SMM Bible'
+const siteDescription = 'Практическое руководство по SMM'
+
 export default defineConfig({
   lang: 'ru-RU',
-  title: 'SMM Bible',
-  description: 'Практическое руководство по SMM',
-  base: '/smm-bible/',
+  title: siteTitle,
+  description: siteDescription,
+  base,
   cleanUrls: true,
   // Рабочие подборки источников для авторов, а не страницы для читателей. Ссылки в них проверяет rumdl.
   srcExclude: ['research/**'],
   lastUpdated: true,
+
+  // robots.txt не добавляем: на github.io поисковики читают его только из корня домена, а не из /smm-bible/.
+  sitemap: { hostname: siteUrl },
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: siteTitle }],
+    ['meta', { property: 'og:locale', content: 'ru_RU' }],
+    ['meta', { property: 'og:image', content: `${siteUrl}images/og-cover.jpg` }],
+    ['meta', { property: 'og:image:width', content: '960' }],
+    ['meta', { property: 'og:image:height', content: '960' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+  ],
+
+  // Теги, которые зависят от страницы, по рецепту из документации VitePress (transformPageData).
+  transformPageData(pageData) {
+    const url = siteUrl + pageData.relativePath.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '')
+    const title = pageData.title || siteTitle
+    const description = pageData.description || siteDescription
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+    )
+  },
 
   markdown: {
     // Блоки ```mermaid превращаются в компонент темы, который рисует диаграмму в браузере.
