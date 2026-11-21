@@ -9,6 +9,12 @@
   height: auto;
 }
 
+/* Подписи mermaid измеряются с межстрочным интервалом body; стиль абзацев .vp-doc обрезал бы последнюю строку. */
+.vp-doc .mermaid-diagram p {
+  margin: 0;
+  line-height: 24px;
+}
+
 .mermaid-diagram[data-mermaid-error] {
   white-space: pre;
   text-align: left;

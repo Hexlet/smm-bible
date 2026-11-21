@@ -24,6 +24,14 @@ export const Mermaid = defineComponent({
         theme: isDark.value ? 'dark' : 'default',
         // Шрифт задаётся явно: mermaid измеряет подписи этим шрифтом, иначе текст обрезается.
         fontFamily: getComputedStyle(document.body).fontFamily,
+        // Палитра графиков контрастна в обеих темах; стандартная первая линия почти не видна.
+        themeVariables: {
+          xyChart: { plotColorPalette: '#5672cd, #f08c00, #2f9e44, #c2255c', backgroundColor: 'transparent' },
+          pie1: '#5672cd',
+          pie2: '#f08c00',
+          pie3: '#adb5bd',
+          pie4: '#2f9e44',
+        },
       })
       try {
         const { svg } = await mermaid.render(`mermaid-${++counter}`, source)
