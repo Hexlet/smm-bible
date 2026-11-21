@@ -42,6 +42,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
           { text: 'Контент-план и производство', link: '/content/production' },
           { text: 'Редактура, проверка фактов и согласование', link: '/content/editing' },
           { text: 'Переработка контента в разные форматы', link: '/content/repurposing' },
+          { text: 'Кросспостинг: публикация на нескольких площадках', link: '/content/crossposting' },
         ],
       },
       {
