@@ -30,6 +30,7 @@
 - [Треды и цепочки публикаций](/mechanics/publications/threads).
 - [Серии материалов и рубрики](/mechanics/publications/series).
 - [Анонсы, напоминания и повторные публикации](/mechanics/publications/reminders).
+- [Закреплённые посты и комментарии](/mechanics/publications/pinned).
 - [Комментарии под чужими публикациями](/mechanics/publications/comments).
 
 ## [Обмен аудиториями и сотрудничество](/mechanics/partnerships/)

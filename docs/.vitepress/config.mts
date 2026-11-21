@@ -346,6 +346,7 @@ const mechanicsSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Треды и цепочки публикаций', link: '/mechanics/publications/threads' },
       { text: 'Серии материалов и рубрики', link: '/mechanics/publications/series' },
       { text: 'Анонсы, напоминания и повторные публикации', link: '/mechanics/publications/reminders' },
+      { text: 'Закреплённые посты и комментарии', link: '/mechanics/publications/pinned' },
       { text: 'Комментарии под чужими публикациями', link: '/mechanics/publications/comments' },
     ],
   },
