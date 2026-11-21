@@ -1,3 +1,8 @@
+:root {
+  --vp-font-family-base: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
 @media (min-width: 960px) {
   .VPHomeHero .image-container {
     transform: none;
