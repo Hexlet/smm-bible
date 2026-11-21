@@ -1,0 +1,28 @@
+.mermaid-diagram {
+  margin: 16px 0;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.mermaid-diagram[data-mermaid-error] {
+  white-space: pre;
+  text-align: left;
+  font-family: var(--vp-font-family-mono);
+  color: var(--vp-c-danger-1);
+}
+
+@media (min-width: 960px) {
+  .VPHomeHero .image-container {
+    transform: none;
+  }
+
+  .VPHomeHero .image-src {
+    max-width: min(100%, 420px);
+    max-height: 420px;
+  }
+}

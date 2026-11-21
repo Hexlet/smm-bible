@@ -258,6 +258,20 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  markdown: {
+    // Блоки ```mermaid превращаются в компонент темы, который рисует диаграмму в браузере.
+    config(md) {
+      const fence = md.renderer.rules.fence!
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        if (token.info.trim() === 'mermaid') {
+          return `<Mermaid code="${encodeURIComponent(token.content)}" />`
+        }
+        return fence(tokens, idx, options, env, self)
+      }
+    },
+  },
+
   themeConfig: {
     nav: [
       {
