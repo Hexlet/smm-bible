@@ -28,6 +28,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
         collapsed: true,
         items: [
           { text: 'Темы, рубрики и редакционная политика', link: '/content/editorial-policy' },
+          { text: 'Идеи для постов и трендвотчинг', link: '/content/ideas-and-trends' },
           { text: 'Тексты, визуал и видео', link: '/content/formats' },
           { text: 'AI-контент и его восприятие', link: '/content/ai-content' },
           { text: 'Креативные концепции и кампании', link: '/content/creative' },
