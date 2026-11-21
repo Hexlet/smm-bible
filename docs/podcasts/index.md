@@ -4,9 +4,9 @@
 
 ## Материалы
 
-- [Концепция и форматы](/podcasts/concept) — в работе.
-- [Ведущие, гости и подготовка выпусков](/podcasts/hosts-and-guests) — в работе.
-- [Запись, монтаж и видеоверсия](/podcasts/production) — в работе.
-- [Размещение и продвижение подкаста](/podcasts/distribution) — в работе.
-- [Участие в чужих подкастах](/podcasts/guest-appearances) — в работе.
-- [Аналитика и монетизация](/podcasts/analytics-and-monetization) — в работе.
+- [Концепция и форматы](/podcasts/concept).
+- [Ведущие, гости и подготовка выпусков](/podcasts/hosts-and-guests).
+- [Запись, монтаж и видеоверсия](/podcasts/production).
+- [Размещение и продвижение подкаста](/podcasts/distribution).
+- [Участие в чужих подкастах](/podcasts/guest-appearances).
+- [Аналитика и монетизация](/podcasts/analytics-and-monetization).

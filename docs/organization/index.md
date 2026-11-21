@@ -4,9 +4,9 @@
 
 ## Материалы
 
-- [Роли и зоны ответственности](/organization/roles) — в работе.
-- [Подрядчики и взаимодействие с отделами](/organization/contractors) — в работе.
-- [Производство, согласования и контроль качества](/organization/workflow) — в работе.
-- [Календарь, ресурсы и бюджет](/organization/resources) — в работе.
+- [Роли и зоны ответственности](/organization/roles).
+- [Подрядчики и взаимодействие с отделами](/organization/contractors).
+- [Производство, согласования и контроль качества](/organization/workflow).
+- [Календарь, ресурсы и бюджет](/organization/resources).
 - [Инструменты, автоматизация и ИИ](/organization/tools) — в работе.
 - [Отчётность и передача дел](/organization/reporting-and-handover) — в работе.
