@@ -5,7 +5,7 @@
 ## Материалы
 
 - [Развитие сообщества](/community/development).
-- [Работа с обратной связью и передача лидов](/community/feedback-and-leads).
+- [Работа с обратной связью](/community/feedback-and-leads).
 - [Комментарии, сообщения и модерация](/community/moderation).
 - [Пользовательский контент, отзывы и рекомендации](/community/user-content).
 - [Клиентский сервис](/community/customer-service).
