@@ -91,6 +91,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     collapsed: true,
     items: [
       { text: 'Развитие сообщества', link: '/community/development' },
+      { text: 'Работа с обратной связью и передача лидов', link: '/community/feedback-and-leads' },
       { text: 'Комментарии, сообщения и модерация', link: '/community/moderation' },
       { text: 'Пользовательский контент, отзывы и рекомендации', link: '/community/user-content' },
       { text: 'Клиентский сервис', link: '/community/customer-service' },
