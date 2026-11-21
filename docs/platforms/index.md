@@ -15,13 +15,13 @@
 - [X / Twitter](/platforms/twitter).
 - [MAX](/platforms/max).
 - [Одноклассники](/platforms/ok).
-- [Дзен](/platforms/dzen) — в работе.
+- [Дзен](/platforms/dzen).
 - [Rutube](/platforms/rutube).
 - [Pinterest](/platforms/pinterest).
 - [TenChat](/platforms/tenchat).
 - [Сетка](/platforms/setka).
-- [Facebook](/platforms/facebook) — в работе.
-- [LinkedIn](/platforms/linkedin) — в работе.
+- [Facebook](/platforms/facebook).
+- [LinkedIn](/platforms/linkedin).
 
 Facebook и LinkedIn включены для задач с зарубежной аудиторией.
 

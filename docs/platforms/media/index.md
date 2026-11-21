@@ -4,12 +4,12 @@
 
 ## Площадки
 
-- [Хабр](/platforms/media/habr) — в работе.
-- [vc.ru](/platforms/media/vc) — в работе.
-- [Пикабу](/platforms/media/pikabu) — в работе.
-- [DTF](/platforms/media/dtf) — в работе.
+- [Хабр](/platforms/media/habr).
+- [vc.ru](/platforms/media/vc).
+- [Пикабу](/platforms/media/pikabu).
+- [DTF](/platforms/media/dtf).
 - [Spark](/platforms/media/spark) — в работе.
-- [Cossa](/platforms/media/cossa) — в работе.
+- [Cossa](/platforms/media/cossa).
 - [Sostav](/platforms/media/sostav) — в работе.
 - [Executive.ru](/platforms/media/executive) — в работе.
 - [Клерк](/platforms/media/klerk) — в работе.

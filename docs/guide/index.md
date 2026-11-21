@@ -26,22 +26,22 @@
 - [X / Twitter](/platforms/twitter).
 - [MAX](/platforms/max).
 - [Одноклассники](/platforms/ok).
-- [Дзен](/platforms/dzen) — в работе.
+- [Дзен](/platforms/dzen).
 - [Rutube](/platforms/rutube).
 - [Pinterest](/platforms/pinterest).
 - [TenChat](/platforms/tenchat).
 - [Сетка](/platforms/setka).
-- [Facebook](/platforms/facebook) — в работе.
-- [LinkedIn](/platforms/linkedin) — в работе.
+- [Facebook](/platforms/facebook).
+- [LinkedIn](/platforms/linkedin).
 
 ## [Контентные платформы и медиа](/platforms/media/)
 
-- [Хабр](/platforms/media/habr) — в работе.
-- [vc.ru](/platforms/media/vc) — в работе.
-- [Пикабу](/platforms/media/pikabu) — в работе.
-- [DTF](/platforms/media/dtf) — в работе.
+- [Хабр](/platforms/media/habr).
+- [vc.ru](/platforms/media/vc).
+- [Пикабу](/platforms/media/pikabu).
+- [DTF](/platforms/media/dtf).
 - [Spark](/platforms/media/spark) — в работе.
-- [Cossa](/platforms/media/cossa) — в работе.
+- [Cossa](/platforms/media/cossa).
 - [Sostav](/platforms/media/sostav) — в работе.
 - [Executive.ru](/platforms/media/executive) — в работе.
 - [Клерк](/platforms/media/klerk) — в работе.
@@ -76,7 +76,7 @@
 - [Публикации и регулярные касания](/mechanics/publications/).
 - [Обмен аудиториями и сотрудничество](/mechanics/partnerships/).
 - [Участие аудитории](/mechanics/participation/) — в работе.
-- [Внешние точки входа и целевые действия](/mechanics/external/) — в работе.
+- [Внешние точки входа и целевые действия](/mechanics/external/).
 
 ## [Реклама, блогеры и партнёрства](/ads/)
 

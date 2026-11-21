@@ -39,5 +39,5 @@
 - [Выступления на конференциях](/mechanics/external/conferences).
 - [Вебинары, гостевые эфиры и интервью](/mechanics/external/webinars).
 - [QR-коды и ссылки в сопроводительных материалах](/mechanics/external/qr-and-signatures).
-- [Полезные материалы за подписку или контакт](/mechanics/external/lead-magnets) — в работе.
-- [Регистрация, обращение, заявка и покупка](/mechanics/external/conversion) — в работе.
+- [Полезные материалы за подписку или контакт](/mechanics/external/lead-magnets).
+- [Регистрация, обращение, заявка и покупка](/mechanics/external/conversion).
