@@ -4,7 +4,7 @@
 
 ## Материалы
 
-- [Обмен постами и взаимопиар](/mechanics/partnerships/post-exchange) — в работе.
+- [Обмен постами и взаимопиар](/mechanics/partnerships/post-exchange).
 - [Рекомендации и подборки каналов](/mechanics/partnerships/recommendations) — в работе.
 - [Гостевые посты и совместные серии](/mechanics/partnerships/guest-posts) — в работе.
 - [Совместные эфиры и разборы](/mechanics/partnerships/live-events) — в работе.
