@@ -4,11 +4,11 @@
 
 ## [Ссылки и навигация](/mechanics/links/)
 
-- [Ссылки в профиле и публикациях](/mechanics/links/profile) — в работе.
-- [Ссылка в комментарии](/mechanics/links/comments) — в работе.
-- [Подводка к ссылке и призыв к действию](/mechanics/links/calls-to-action) — в работе.
-- [Закрепы, стартовые материалы и меню](/mechanics/links/pinned-posts) — в работе.
-- [Материал или страница после перехода](/mechanics/links/landing) — в работе.
+- [Ссылки в профиле и публикациях](/mechanics/links/profile).
+- [Ссылка в комментарии](/mechanics/links/comments).
+- [Подводка к ссылке и призыв к действию](/mechanics/links/calls-to-action).
+- [Закрепы, стартовые материалы и меню](/mechanics/links/pinned-posts).
+- [Материал или страница после перехода](/mechanics/links/landing).
 
 ## [Публикации и регулярные касания](/mechanics/publications/)
 
