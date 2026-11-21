@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # rumdl, typos, jactionlint и сборка сайта через hk.
+      # rumdl, typos, jactionlint, tsc и сборка сайта через hk.
       - name: Run checks
         run: mise run check
 

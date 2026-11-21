@@ -10,6 +10,11 @@ local fast = new Mapping<String, Step> {
 
 // Сборка сайта: VitePress падает на битых внутренних ссылках.
 local all = (fast) {
+    // VitePress срезает типы без проверки, поэтому их проверяет tsc.
+    ["typecheck"] {
+        glob = List("docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.mts", "tsconfig.json", "package.json", "package-lock.json")
+        check = "npm run --silent typecheck"
+    }
     ["build"] {
         glob = List("docs/**", "package.json", "package-lock.json")
         check = "npm run --silent build"
