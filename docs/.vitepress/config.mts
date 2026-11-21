@@ -22,18 +22,36 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     link: '/content/',
     collapsed: true,
     items: [
-      { text: 'Темы, рубрики и редакционная политика', link: '/content/editorial-policy' },
-      { text: 'Личный бренд основателя и сотрудников', link: '/content/personal-brands' },
-      { text: 'Экспертное продвижение: публикации, медиа и выступления', link: '/content/expert-promotion' },
-      { text: 'Тексты, визуал и видео', link: '/content/formats' },
-      { text: 'Креативные концепции и кампании', link: '/content/creative' },
-      { text: 'Частота и ритм публикаций', link: '/content/frequency' },
-      { text: 'Поиск и привлечение экспертов', link: '/content/experts' },
-      { text: 'Интервью и извлечение знаний', link: '/content/expert-interviews' },
-      { text: 'Работа с авторами и экспертами: задания, оплата и документы', link: '/content/authors' },
-      { text: 'Контент-план и производство', link: '/content/production' },
-      { text: 'Редактура, проверка фактов и согласование', link: '/content/editing' },
-      { text: 'Переработка контента в разные форматы', link: '/content/repurposing' },
+      {
+        text: 'Редакционная программа и форматы',
+        collapsed: true,
+        items: [
+          { text: 'Темы, рубрики и редакционная политика', link: '/content/editorial-policy' },
+          { text: 'Тексты, визуал и видео', link: '/content/formats' },
+          { text: 'Креативные концепции и кампании', link: '/content/creative' },
+          { text: 'Частота и ритм публикаций', link: '/content/frequency' },
+        ],
+      },
+      {
+        text: 'Авторы, эксперты и выпуск',
+        collapsed: true,
+        items: [
+          { text: 'Поиск и привлечение экспертов', link: '/content/experts' },
+          { text: 'Интервью и извлечение знаний', link: '/content/expert-interviews' },
+          { text: 'Работа с авторами и экспертами: задания, оплата и документы', link: '/content/authors' },
+          { text: 'Контент-план и производство', link: '/content/production' },
+          { text: 'Редактура, проверка фактов и согласование', link: '/content/editing' },
+          { text: 'Переработка контента в разные форматы', link: '/content/repurposing' },
+        ],
+      },
+      {
+        text: 'Личный бренд и экспертное продвижение',
+        collapsed: true,
+        items: [
+          { text: 'Личный бренд основателя и сотрудников', link: '/content/personal-brands' },
+          { text: 'Экспертное продвижение: публикации, медиа и выступления', link: '/content/expert-promotion' },
+        ],
+      },
     ],
   },
   {

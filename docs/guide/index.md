@@ -2,7 +2,14 @@
 
 Практическое руководство по SMM для русскоязычных маркетологов: от задач бизнеса и стратегии до работы на площадках, конкретных механик и оценки результата.
 
-Руководство охватывает стратегию, площадки, производство контента, механики продвижения, работу с аудиторией и оценку результата. Разделы можно изучать по порядку или открывать под конкретную задачу.
+Разделы руководства можно изучать по порядку или открывать под конкретную задачу. В верхнем меню также доступны каталоги площадок, механик и справочные материалы.
+
+| Раздел | Когда открывать |
+| --- | --- |
+| Руководство | Чтобы пройти путь от задач бизнеса и стратегии до производства контента, продвижения и оценки результата |
+| [Площадки](/platforms/) | Чтобы выбрать соцсеть или медиа, изучить возможности и порядок публикации |
+| [Механики](/mechanics/) | Чтобы подобрать конкретный приём привлечения, распространения или взаимодействия с аудиторией |
+| Справочник: [шаблоны](/templates/) и [глоссарий](/glossary) | Чтобы подготовить рабочий документ или уточнить термин |
 
 ## [Основы и стратегия](/strategy/)
 
@@ -14,55 +21,28 @@
 - [Выбор площадок и стратегия](/strategy/channels).
 - [Бюджет и экономика SMM](/strategy/economics).
 
-## [Соцсети и мессенджеры](/platforms/)
-
-- [Telegram](/platforms/telegram).
-- [VK](/platforms/vk).
-- [VK Видео](/platforms/vk-video).
-- [VK Клипы](/platforms/vk-clips).
-- [YouTube](/platforms/youtube).
-- [Instagram](/platforms/instagram).
-- [TikTok](/platforms/tiktok).
-- [Threads](/platforms/threads).
-- [X / Twitter](/platforms/twitter).
-- [MAX](/platforms/max).
-- [Одноклассники](/platforms/ok).
-- [Дзен](/platforms/dzen).
-- [Rutube](/platforms/rutube).
-- [Pinterest](/platforms/pinterest).
-- [TenChat](/platforms/tenchat).
-- [Сетка](/platforms/setka).
-- [Facebook](/platforms/facebook).
-- [LinkedIn](/platforms/linkedin).
-
-## [Контентные платформы и медиа](/platforms/media/)
-
-- [Хабр](/platforms/media/habr).
-- [vc.ru](/platforms/media/vc).
-- [Пикабу](/platforms/media/pikabu).
-- [DTF](/platforms/media/dtf).
-- [Spark](/platforms/media/spark).
-- [Cossa](/platforms/media/cossa).
-- [Sostav](/platforms/media/sostav).
-- [Executive.ru](/platforms/media/executive).
-- [Клерк](/platforms/media/klerk).
-- [RB.RU](/platforms/media/rb).
-- [Поиск отраслевых площадок](/platforms/media/industry).
-
 ## [Контент и работа с авторами](/content/)
 
+### Редакционная программа и форматы
+
 - [Темы, рубрики и редакционная политика](/content/editorial-policy).
-- [Личный бренд основателя и сотрудников](/content/personal-brands).
-- [Экспертное продвижение: публикации, медиа и выступления](/content/expert-promotion).
 - [Тексты, визуал и видео](/content/formats).
 - [Креативные концепции и кампании](/content/creative).
 - [Частота и ритм публикаций](/content/frequency).
+
+### Авторы, эксперты и выпуск
+
 - [Поиск и привлечение экспертов](/content/experts).
 - [Интервью и извлечение знаний](/content/expert-interviews).
 - [Работа с авторами и экспертами: задания, оплата и документы](/content/authors).
 - [Контент-план и производство](/content/production).
 - [Редактура, проверка фактов и согласование](/content/editing).
 - [Переработка контента в разные форматы](/content/repurposing).
+
+### Личный бренд и экспертное продвижение
+
+- [Личный бренд основателя и сотрудников](/content/personal-brands).
+- [Экспертное продвижение: публикации, медиа и выступления](/content/expert-promotion).
 
 ## [Подкасты](/podcasts/)
 
@@ -72,14 +52,6 @@
 - [Размещение и продвижение подкаста](/podcasts/distribution).
 - [Участие в чужих подкастах](/podcasts/guest-appearances).
 - [Аналитика и монетизация](/podcasts/analytics-and-monetization).
-
-## [Каталог механик](/mechanics/)
-
-- [Ссылки и навигация](/mechanics/links/).
-- [Публикации и регулярные касания](/mechanics/publications/).
-- [Обмен аудиториями и сотрудничество](/mechanics/partnerships/).
-- [Участие аудитории](/mechanics/participation/).
-- [Внешние точки входа и целевые действия](/mechanics/external/).
 
 ## [Реклама, блогеры и партнёрства](/ads/)
 
@@ -138,8 +110,3 @@
 - [Требования к рекламным размещениям](/safety/advertising).
 - [Персональные данные и контакты аудитории](/safety/personal-data).
 - [Доступы, защита и восстановление аккаунтов](/safety/accounts).
-
-## Справочные материалы
-
-- [Шаблоны](/templates/).
-- [Глоссарий](/glossary).
