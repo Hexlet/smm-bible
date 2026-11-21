@@ -4,7 +4,7 @@
 
 ## Соцсети и мессенджеры
 
-- [Telegram](/platforms/telegram).
+- [Telegram](/platforms/telegram): [публикация и сопровождение](/platforms/telegram/publishing).
 - [VK](/platforms/vk).
 - [VK Видео](/platforms/vk-video).
 - [VK Клипы](/platforms/vk-clips).

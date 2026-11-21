@@ -7,6 +7,7 @@
 - [Темы, рубрики и редакционная политика](/content/editorial-policy).
 - [Тексты, визуал и видео](/content/formats).
 - [Креативные концепции и кампании](/content/creative).
+- [Частота и ритм публикаций](/content/frequency).
 - [Контент-план и производство](/content/production).
 - [Переработка контента в разные форматы](/content/repurposing).
 - [Поиск и привлечение экспертов](/content/experts).

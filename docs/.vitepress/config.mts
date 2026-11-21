@@ -24,6 +24,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Темы, рубрики и редакционная политика', link: '/content/editorial-policy' },
       { text: 'Тексты, визуал и видео', link: '/content/formats' },
       { text: 'Креативные концепции и кампании', link: '/content/creative' },
+      { text: 'Частота и ритм публикаций', link: '/content/frequency' },
       { text: 'Контент-план и производство', link: '/content/production' },
       { text: 'Переработка контента в разные форматы', link: '/content/repurposing' },
       { text: 'Поиск и привлечение экспертов', link: '/content/experts' },
@@ -133,24 +134,80 @@ const platformsSidebar: DefaultTheme.SidebarItem[] = [
     text: 'Соцсети и мессенджеры',
     collapsed: false,
     items: [
-      { text: 'Telegram', link: '/platforms/telegram' },
+      {
+        text: 'Telegram',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/telegram' },
+          { text: 'Публикация и сопровождение', link: '/platforms/telegram/publishing' },
+        ],
+      },
       { text: 'VK', link: '/platforms/vk' },
       { text: 'VK Видео', link: '/platforms/vk-video' },
       { text: 'VK Клипы', link: '/platforms/vk-clips' },
       { text: 'YouTube', link: '/platforms/youtube' },
-      { text: 'Instagram', link: '/platforms/instagram' },
-      { text: 'TikTok', link: '/platforms/tiktok' },
-      { text: 'Threads', link: '/platforms/threads' },
-      { text: 'X / Twitter', link: '/platforms/twitter' },
+      {
+        text: 'Instagram',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/instagram' },
+          { text: 'Публикация и сопровождение', link: '/platforms/instagram/publishing' },
+        ],
+      },
+      {
+        text: 'TikTok',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/tiktok' },
+          { text: 'Публикация и сопровождение', link: '/platforms/tiktok/publishing' },
+        ],
+      },
+      {
+        text: 'Threads',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/threads' },
+          { text: 'Публикация и сопровождение', link: '/platforms/threads/publishing' },
+        ],
+      },
+      {
+        text: 'X / Twitter',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/twitter' },
+          { text: 'Публикация и сопровождение', link: '/platforms/twitter/publishing' },
+        ],
+      },
       { text: 'MAX', link: '/platforms/max' },
       { text: 'Одноклассники', link: '/platforms/ok' },
       { text: 'Дзен', link: '/platforms/dzen' },
       { text: 'Rutube', link: '/platforms/rutube' },
-      { text: 'Pinterest', link: '/platforms/pinterest' },
+      {
+        text: 'Pinterest',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/pinterest' },
+          { text: 'Публикация и сопровождение', link: '/platforms/pinterest/publishing' },
+        ],
+      },
       { text: 'TenChat', link: '/platforms/tenchat' },
       { text: 'Сетка', link: '/platforms/setka' },
-      { text: 'Facebook', link: '/platforms/facebook' },
-      { text: 'LinkedIn', link: '/platforms/linkedin' },
+      {
+        text: 'Facebook',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/facebook' },
+          { text: 'Публикация и сопровождение', link: '/platforms/facebook/publishing' },
+        ],
+      },
+      {
+        text: 'LinkedIn',
+        collapsed: true,
+        items: [
+          { text: 'Обзор и возможности', link: '/platforms/linkedin' },
+          { text: 'Публикация и сопровождение', link: '/platforms/linkedin/publishing' },
+        ],
+      },
     ],
   },
   {
