@@ -6,6 +6,11 @@ local fast = new Mapping<String, Step> {
     ["rumdl"] = Builtins.rumdl
     ["typos"] = Builtins.typos
     ["jactionlint"] = Builtins.jactionlint
+    // Исследования — в docs/research/ и в его списке, а не отдельными файлами в корне.
+    ["research"] {
+        glob = List("*.md", "docs/research/**")
+        check = "./scripts/check-research.sh"
+    }
 }
 
 // Сборка сайта: VitePress падает на битых внутренних ссылках.

@@ -53,6 +53,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     link: '/ads/',
     collapsed: true,
     items: [
+      { text: 'Платное привлечение аудитории', link: '/ads/audience-growth' },
       { text: 'Планирование рекламы и бюджета', link: '/ads/planning' },
       { text: 'Таргетированная реклама', link: '/ads/targeted-ads' },
       { text: 'Посевы и рекламные интеграции', link: '/ads/placements' },
@@ -385,6 +386,8 @@ export default defineConfig({
   description: 'Практическое руководство по SMM',
   base: '/smm-bible/',
   cleanUrls: true,
+  // Рабочие подборки источников для авторов, а не страницы для читателей. Ссылки в них проверяет rumdl.
+  srcExclude: ['research/**'],
   lastUpdated: true,
 
   markdown: {
