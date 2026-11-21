@@ -9,12 +9,24 @@ max_cache_age = "1d"
 accept = ["200..=204", "429"]
 exclude_path = ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
 # Ссылки на сам репозиторий отвечают 404, пока коммит не запушен.
-# help.x.com и sagepub.com стоят за защитой от ботов и отвечают 403 любому автоматическому клиенту,
-# хотя страницы открываются в браузере. Проверять их вручную.
+# Сайты ниже стоят за защитой от ботов (Cloudflare отвечает 403 с cf-mitigated: challenge)
+# любому автоматическому клиенту, хотя страницы открываются в браузере. Проверять их вручную.
+# DOI исключены по префиксу издательства: doi.org редиректит на сайт издательства с той же защитой.
+# 10.1093 — Oxford University Press, 10.1126 — Science (AAAS), 10.1145 — ACM,
+# 10.1177 — SAGE, 10.1287 — INFORMS.
+# PDF на fer.unizg.hr закрыт CMS-авторизацией (401); подборка ai-content-audience-reaction
+# прямо пишет, что файл не открылся, а ссылка указывает на источник.
 exclude = [
   "^https://github.com/mokevnin/smm-bible/",
   "^https://help\\.x\\.com/",
   "^https://www\\.sagepub\\.com/",
+  "^https://journals\\.sagepub\\.com/",
+  "^https://doi\\.org/10\\.(1093|1126|1145|1177|1287)/",
+  "^https://www\\.academia\\.edu/",
+  "^https://support\\.bitly\\.com/",
+  # Точки не экранированы: так typos распознаёт URL и не считает название домена опечаткой.
+  "^https://www.canva.com/",
+  "^https://www\\.fer\\.unizg\\.hr/_download/repository/7_Do_You_Create_Your_Content_Yourself",
 ]
 # Только внешние ссылки: локальные пути вида /strategy/ — это маршруты VitePress, а не файлы.
 root_dir = "docs"
