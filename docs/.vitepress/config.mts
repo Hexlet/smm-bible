@@ -4,6 +4,7 @@ import { mermaidMarkdown } from '@mokevnin/vitepress-mermaid/markdown'
 const guideSidebar: DefaultTheme.SidebarItem[] = [
   { text: 'Оглавление руководства', link: '/guide/' },
   { text: 'Маршруты по рабочим задачам', link: '/guide/routes' },
+  { text: 'Учебный проект: пилот мастерской', link: '/guide/workshop-pilot' },
   {
     text: 'Основы и стратегия',
     link: '/strategy/',
