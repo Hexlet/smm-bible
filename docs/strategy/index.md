@@ -10,5 +10,9 @@
 - [Позиционирование и ценность подписки](/strategy/positioning).
 - [Бренд и коммуникационная стратегия](/strategy/communications).
 - [Как люди находят и потребляют контент](/strategy/content-consumption).
+- [Путь от первого контакта до рекомендации](/funnels/customer-journey).
 - [Выбор площадок и стратегия](/strategy/channels).
+- [Выбор показателей под задачу](/analytics/goals).
 - [Бюджет и экономика SMM](/strategy/economics).
+
+Зафиксировать решение поможет [стратегия на одной странице](/templates/strategy), а договориться об оценке — [карта показателей](/templates/measurement).

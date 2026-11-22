@@ -3,6 +3,7 @@ import { mermaidMarkdown } from '@mokevnin/vitepress-mermaid/markdown'
 
 const guideSidebar: DefaultTheme.SidebarItem[] = [
   { text: 'Оглавление руководства', link: '/guide/' },
+  { text: 'Маршруты по рабочим задачам', link: '/guide/routes' },
   {
     text: 'Основы и стратегия',
     link: '/strategy/',
@@ -14,7 +15,9 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Позиционирование и ценность подписки', link: '/strategy/positioning' },
       { text: 'Бренд и коммуникационная стратегия', link: '/strategy/communications' },
       { text: 'Как люди находят и потребляют контент', link: '/strategy/content-consumption' },
+      { text: 'Путь от первого контакта до рекомендации', link: '/funnels/customer-journey' },
       { text: 'Выбор площадок и стратегия', link: '/strategy/channels' },
+      { text: 'Выбор показателей под задачу', link: '/analytics/goals' },
       { text: 'Бюджет и экономика SMM', link: '/strategy/economics' },
     ],
   },
@@ -59,19 +62,6 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     ],
   },
   {
-    text: 'Подкасты',
-    link: '/podcasts/',
-    collapsed: true,
-    items: [
-      { text: 'Концепция и форматы', link: '/podcasts/concept' },
-      { text: 'Ведущие, гости и подготовка выпусков', link: '/podcasts/hosts-and-guests' },
-      { text: 'Запись, монтаж и видеоверсия', link: '/podcasts/production' },
-      { text: 'Размещение и продвижение подкаста', link: '/podcasts/distribution' },
-      { text: 'Участие в чужих подкастах', link: '/podcasts/guest-appearances' },
-      { text: 'Аналитика и монетизация', link: '/podcasts/analytics-and-monetization' },
-    ],
-  },
-  {
     text: 'Реклама, блогеры и партнёрства',
     link: '/ads/',
     collapsed: true,
@@ -104,7 +94,6 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     link: '/funnels/',
     collapsed: true,
     items: [
-      { text: 'Путь от первого контакта до рекомендации', link: '/funnels/customer-journey' },
       { text: 'SMM в запусках и кампаниях', link: '/funnels/launches' },
       { text: 'Перелив аудитории между площадками', link: '/funnels/audience-transfer' },
       { text: 'Знакомство с новым подписчиком', link: '/funnels/onboarding' },
@@ -119,16 +108,15 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     collapsed: true,
     items: [
       { text: 'Определения и формулы показателей', link: '/analytics/metrics' },
-      { text: 'Выбор показателей под задачу', link: '/analytics/goals' },
       { text: 'Сбор данных и разметка ссылок', link: '/analytics/tracking' },
-      { text: 'AI для аналитики и исследований', link: '/analytics/ai-research' },
       { text: 'Сквозная аналитика и место SMM', link: '/analytics/end-to-end' },
-      { text: 'Отчёты и сравнение площадок', link: '/analytics/reports' },
       { text: 'Атрибуция и ограничения выводов', link: '/analytics/attribution' },
       { text: 'Эксперименты и проверка гипотез', link: '/analytics/experiments' },
       { text: 'Качество аудитории по источникам', link: '/analytics/audience-quality' },
       { text: 'Стоимость результата и окупаемость', link: '/analytics/roi' },
+      { text: 'Отчёты и сравнение площадок', link: '/analytics/reports' },
       { text: 'Аудит и пересборка SMM', link: '/analytics/audit' },
+      { text: 'AI для аналитики и исследований', link: '/analytics/ai-research' },
     ],
   },
   {
@@ -153,6 +141,19 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Требования к рекламным размещениям', link: '/safety/advertising' },
       { text: 'Персональные данные и контакты аудитории', link: '/safety/personal-data' },
       { text: 'Доступы, защита и восстановление аккаунтов', link: '/safety/accounts' },
+    ],
+  },
+  {
+    text: 'Подкасты: отдельная ветка',
+    link: '/podcasts/',
+    collapsed: true,
+    items: [
+      { text: 'Концепция и форматы', link: '/podcasts/concept' },
+      { text: 'Ведущие, гости и подготовка выпусков', link: '/podcasts/hosts-and-guests' },
+      { text: 'Запись, монтаж и видеоверсия', link: '/podcasts/production' },
+      { text: 'Размещение и продвижение подкаста', link: '/podcasts/distribution' },
+      { text: 'Участие в чужих подкастах', link: '/podcasts/guest-appearances' },
+      { text: 'Аналитика и монетизация', link: '/podcasts/analytics-and-monetization' },
     ],
   },
 ]
@@ -400,6 +401,9 @@ const resourcesSidebar: DefaultTheme.SidebarItem[] = [
     link: '/templates/',
     collapsed: true,
     items: [
+      { text: 'Стратегия на одной странице', link: '/templates/strategy' },
+      { text: 'Карта показателей', link: '/templates/measurement' },
+      { text: 'Чек-лист аудита', link: '/templates/audit' },
       { text: 'Контент-план', link: '/templates/content-plan' },
       { text: 'Бриф для автора или подрядчика', link: '/templates/brief' },
       { text: 'Отчёт по SMM', link: '/templates/report' },
