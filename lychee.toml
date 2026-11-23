@@ -13,7 +13,9 @@ exclude_path = ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
 # любому автоматическому клиенту, хотя страницы открываются в браузере. Проверять их вручную.
 # DOI исключены по префиксу издательства: doi.org редиректит на сайт издательства с той же защитой.
 # 10.1093 — Oxford University Press, 10.1126 — Science (AAAS), 10.1145 — ACM,
-# 10.1177 — SAGE, 10.1287 — INFORMS.
+# 10.1177 — SAGE, 10.1287 — INFORMS, 10.1509 — American Marketing Association (журналы на SAGE).
+# consultant.ru отвечает 418 или не отвечает на запросы с IP раннеров GitHub Actions,
+# хотя из обычной сети те же страницы открываются с кодом 200.
 # PDF на fer.unizg.hr закрыт CMS-авторизацией (401); подборка ai-content-audience-reaction
 # прямо пишет, что файл не открылся, а ссылка указывает на источник.
 exclude = [
@@ -21,7 +23,10 @@ exclude = [
   "^https://help\\.x\\.com/",
   "^https://www\\.sagepub\\.com/",
   "^https://journals\\.sagepub\\.com/",
-  "^https://doi\\.org/10\\.(1093|1126|1145|1177|1287)/",
+  "^https://doi\\.org/10\\.(1093|1126|1145|1177|1287|1509)/",
+  "^https://tgstat\\.ru/",
+  "^https://kaz\\.tgstat\\.com/",
+  "^https://www\\.consultant\\.ru/",
   "^https://www\\.academia\\.edu/",
   "^https://support\\.bitly\\.com/",
   # Точки не экранированы: так typos распознаёт URL и не считает название домена опечаткой.
