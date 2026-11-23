@@ -49,6 +49,12 @@
 - [Челленджи и конкурсы](/mechanics/participation/challenges).
 - [Совместное создание контента](/mechanics/participation/co-creation).
 
+## [Вовлечение внутри поста](/mechanics/engagement/)
+
+- [Реакции за продолжение и голосование реакциями](/mechanics/engagement/reactions).
+- [Слово в комментарии за материал](/mechanics/engagement/comment-keyword).
+- [Репост и отметка друга за бонус](/mechanics/engagement/shares).
+
 ## [Внешние точки входа и целевые действия](/mechanics/external/)
 
 - [Выступления на конференциях](/mechanics/external/conferences).

@@ -383,6 +383,16 @@ const mechanicsSidebar: DefaultTheme.SidebarItem[] = [
     ],
   },
   {
+    text: 'Вовлечение внутри поста',
+    link: '/mechanics/engagement/',
+    collapsed: true,
+    items: [
+      { text: 'Реакции за продолжение и голосование реакциями', link: '/mechanics/engagement/reactions' },
+      { text: 'Слово в комментарии за материал', link: '/mechanics/engagement/comment-keyword' },
+      { text: 'Репост и отметка друга за бонус', link: '/mechanics/engagement/shares' },
+    ],
+  },
+  {
     text: 'Внешние точки входа и целевые действия',
     link: '/mechanics/external/',
     collapsed: true,
