@@ -12,14 +12,8 @@ hero:
     height: 960
   actions:
     - theme: brand
-      text: Оглавление
+      text: Начать читать
       link: /guide/
-    - theme: alt
-      text: Площадки
-      link: /platforms/
-    - theme: alt
-      text: Механики
-      link: /mechanics/
 
 features:
   - title: Руководство
