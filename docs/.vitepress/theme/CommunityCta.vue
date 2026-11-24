@@ -1,4 +1,7 @@
 <!-- Приглашение в Telegram-сообщество Хекслета сразу под hero главной. -->
+<script setup lang="ts">
+import { IconBrandTelegram } from '@tabler/icons-vue'
+</script>
 
 <template>
   <section class="community-cta">
@@ -7,10 +10,13 @@
         <div>
           <h2 class="title">Хекслет AI Бизнес</h2>
           <p class="text">
-            Сообщество вайбкодеров, автоматизаторов и предпринимателей в Telegram. Помогаем автоматизировать процессы и бизнес с помощью ИИ.
+            Telegram-сообщество для специалистов, которые хотят автоматизировать свою работу с помощью ИИ, а также для вайбкодеров, автоматизаторов и предпринимателей.
           </p>
         </div>
-        <a class="button" href="https://t.me/hexletai" target="_blank" rel="noopener">Вступить в сообщество</a>
+        <a class="button" href="https://t.me/hexletai" target="_blank" rel="noopener">
+          <IconBrandTelegram :size="18" :stroke="2" aria-hidden="true" />
+          Вступить в сообщество
+        </a>
       </div>
     </div>
   </section>
@@ -67,21 +73,28 @@
 }
 
 .button {
-  display: inline-block;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
   padding: 0 20px;
+  border: 1px solid var(--vp-c-brand-1);
   border-radius: 20px;
-  background-color: var(--vp-button-brand-bg);
+  background-color: transparent;
   font-size: 14px;
   font-weight: 600;
-  line-height: 40px;
-  color: var(--vp-button-brand-text);
+  line-height: 38px;
+  color: var(--vp-c-brand-1);
   text-decoration: none;
   white-space: nowrap;
-  transition: background-color 0.25s;
+  transition:
+    color 0.25s,
+    border-color 0.25s,
+    background-color 0.25s;
 }
 
 .button:hover {
-  background-color: var(--vp-button-brand-hover-bg);
-  color: var(--vp-button-brand-hover-text);
+  border-color: var(--vp-c-brand-2);
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-brand-2);
 }
 </style>
