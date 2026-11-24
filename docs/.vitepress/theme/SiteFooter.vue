@@ -31,6 +31,13 @@ const year = new Date().getFullYear()
           </p>
         </section>
       </div>
+      <div class="cta">
+        <div>
+          <p class="cta-text">Хекслет AI Бизнес</p>
+          <p>Сообщество вайбкодеров, автоматизаторов и предпринимателей в Telegram. Помогаем автоматизировать процессы и бизнес с помощью ИИ.</p>
+        </div>
+        <a class="cta-button" href="https://t.me/hexletai" target="_blank" rel="noopener">Вступить в сообщество</a>
+      </div>
       <p class="copyright">© {{ year }} Хекслет</p>
     </div>
   </footer>
@@ -95,6 +102,44 @@ a {
 
 a:hover {
   color: var(--vp-c-brand-2);
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+}
+
+.cta-text {
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 20px;
+  background-color: var(--vp-button-brand-bg);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--vp-button-brand-text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.25s;
+}
+
+.cta-button:hover {
+  background-color: var(--vp-button-brand-hover-bg);
+  color: var(--vp-button-brand-hover-text);
 }
 
 .copyright {
