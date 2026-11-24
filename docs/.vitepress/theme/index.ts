@@ -5,12 +5,17 @@ import type { Theme } from 'vitepress'
 import { enhanceAppWithMermaid } from '@mokevnin/vitepress-mermaid/client'
 import '@mokevnin/vitepress-mermaid/style.css'
 import HexletCourses from './HexletCourses.vue'
+import SiteFooter from './SiteFooter.vue'
 import './style.css'
 
 export default {
   extends: DefaultTheme,
   // Слот срабатывает только на странице с layout: home, то есть на главной.
-  Layout: () => h(DefaultTheme.Layout, null, { 'home-features-after': () => h(HexletCourses) }),
+  Layout: () =>
+    h(DefaultTheme.Layout, null, {
+      'home-features-after': () => h(HexletCourses),
+      'layout-bottom': () => h(SiteFooter),
+    }),
   enhanceApp({ app }) {
     enhanceAppWithMermaid(app)
   },
