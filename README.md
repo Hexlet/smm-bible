@@ -1,6 +1,6 @@
 # SMM Bible
 
-Практическое руководство по SMM. Сайт собирается на [VitePress](https://vitepress.dev) и публикуется на GitHub Pages: <https://mokevnin.github.io/smm-bible/>.
+Практическое руководство по SMM. Сайт собирается на [VitePress](https://vitepress.dev) и публикуется на GitHub Pages: <https://smm.hexlet.io/>.
 
 ## Структура
 

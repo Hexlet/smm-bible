@@ -19,7 +19,7 @@ exclude_path = ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
 # PDF на fer.unizg.hr закрыт CMS-авторизацией (401); подборка ai-content-audience-reaction
 # прямо пишет, что файл не открылся, а ссылка указывает на источник.
 exclude = [
-  "^https://github.com/mokevnin/smm-bible/",
+  "^https://github.com/Hexlet/smm-bible/",
   "^https://help\\.x\\.com/",
   "^https://www\\.sagepub\\.com/",
   "^https://journals\\.sagepub\\.com/",
