@@ -1,6 +1,7 @@
 <!-- Приглашение в Telegram-сообщество Хекслета сразу под hero главной. -->
 <script setup lang="ts">
 import { IconBrandTelegram } from '@tabler/icons-vue'
+import { communityUrl } from './courses.js'
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import { IconBrandTelegram } from '@tabler/icons-vue'
             Telegram-сообщество для специалистов, которые хотят автоматизировать свою работу с помощью ИИ, а также для вайбкодеров, автоматизаторов и предпринимателей.
           </p>
         </div>
-        <a class="button" href="https://t.me/hexletai" target="_blank" rel="noopener">
+        <a class="button" :href="communityUrl" target="_blank" rel="noopener">
           <IconBrandTelegram :size="18" :stroke="2" aria-hidden="true" />
           Вступить в сообщество
         </a>

@@ -1,30 +1,6 @@
 <script setup lang="ts">
 // Блок под карточками разделов на главной: курсы Хекслета по ИИ для маркетологов.
-const utm = 'utm_source=smm-bible&utm_medium=referral&utm_campaign=home'
-
-const courses = [
-  {
-    title: 'ИИ и нейросети для начинающих',
-    meta: 'Бесплатно · 12 уроков, около 4 часов',
-    details:
-      'Как выбрать модель, писать промпты, делать тексты и изображения, собирать сайт и презентацию проекта и проверять результат. Практика в браузере, программировать не нужно.',
-    href: `https://ru.hexlet.io/programs/ai-for-beginners?${utm}`,
-  },
-  {
-    title: 'AI-автоматизация',
-    meta: '3–4 месяца · JavaScript, API, n8n, LLM',
-    details:
-      'Сценарии в n8n для заявок, маркетинга и аналитики и AI-агенты, которые снимают рутину. Начинается с основ программирования, опыт не нужен.',
-    href: `https://ru.hexlet.io/programs/ai-automation?${utm}`,
-  },
-  {
-    title: 'Вайб-кодинг на Claude Code',
-    meta: '1 месяц · без опыта в программировании',
-    details:
-      'Лендинги с обработкой лидов, боты, автоматизация отчётов и мониторинга с помощью Claude Code. Скиллы, хуки и запуск задач по расписанию.',
-    href: `https://ru.hexlet.io/programs/vibecoding-claudecode?${utm}`,
-  },
-]
+import { courses, courseUrl } from './courses.js'
 </script>
 
 <template>
@@ -35,9 +11,9 @@ const courses = [
       <div class="grid">
         <a
           v-for="course in courses"
-          :key="course.href"
+          :key="course.id"
           class="card"
-          :href="course.href"
+          :href="courseUrl(course.id, 'home')"
           target="_blank"
           rel="noopener"
         >
