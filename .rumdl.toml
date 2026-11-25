@@ -1,3 +1,4 @@
 # Абзацы не переносятся по ширине: одна строка на абзац.
+# MD025 выключено: title во frontmatter — штатный способ VitePress задать <title>, а rumdl считает его вторым H1.
 [global]
-disable = ["MD013"]
+disable = ["MD013", "MD025"]
