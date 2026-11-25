@@ -4,6 +4,13 @@ const utm = 'utm_source=smm-bible&utm_medium=referral&utm_campaign=home'
 
 const courses = [
   {
+    title: 'ИИ и нейросети для начинающих',
+    meta: 'Бесплатно · 12 уроков, около 4 часов',
+    details:
+      'Как выбрать модель, писать промпты, делать тексты и изображения, собирать сайт и презентацию проекта и проверять результат. Практика в браузере, программировать не нужно.',
+    href: `https://ru.hexlet.io/programs/ai-for-beginners?${utm}`,
+  },
+  {
     title: 'AI-автоматизация',
     meta: '3–4 месяца · JavaScript, API, n8n, LLM',
     details:
@@ -87,9 +94,9 @@ const courses = [
   margin-top: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
